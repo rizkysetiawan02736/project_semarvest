@@ -1,0 +1,392 @@
+:root {
+    --pr-color : #981a12;
+    --sc-color : #febe29;
+    --trd-color : #fc4c39;
+}
+
+body {
+    font-family:"poppins", sans-serif;
+}
+
+/* Navbar Style */
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.btn-login {
+    border-radius:10px;
+    background: transparent;
+    border: 2px solid var(--pr-color);
+    width: 100px;
+    height: 40px;
+}
+
+.btn-login:hover {
+    background-color: var(--pr-color);
+    color: white;
+    border: none;
+    
+}
+
+/* Hero Section */
+
+#hal-dpn {
+    width: 100%;
+    height: 70vh;
+    background: white;
+    /* background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image:url(../img/smg.jpg); */
+    
+  
+}
+
+.card-cari{
+    background: rgba(153, 3, 3, 0.8);
+    width: 50%;
+}
+
+#hal-dpn h2{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#hal-dpn h5{
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background:#fff;
+    margin-top: -170px;
+    /* z-index: 3; */
+}
+
+/* .card-center {
+    display: flex;
+} */
+
+/* .crsl{
+    z-index: 0;
+} */
+
+.input-cari:focus {
+    border:none;
+}
+
+.input-cari .btn-telusuri {
+    background-color:white;
+    color: var(--trd-color);
+    border: none;
+    border-radius: 0 0 0 10px;
+
+}
+
+.input-cari .btn-detect {
+    background-color: var(--trd-color);
+    color: white;
+    border: none;
+    border-radius: 0 0 10px 0;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    border-radius: 0 0 0 0;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--trd-color);
+    border-radius: 0 10px 0 0;
+    font-weight: 500;
+}
+
+.img-icon {
+    width: 50px;
+}
+
+.card-menu:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/* Section Card Iklan Carousel */
+
+#hal-card-carousel {
+    width: 100%;
+    background: #ffffff;
+    height: 23vh;
+    margin-top: 150px;
+}
+
+/* .gbr-crsl {
+    width: 572px;
+    height: 170px;
+} */
+
+/* Section Card Rekomendasi */
+
+#hal-card-rekomendasi {
+    width: 100%;
+    background: white;
+    height: 70vh;
+    margin-top:100px ;
+}
+
+#hal-card-rekomendasi h5{
+    color: var(--pr-color);
+    margin-left: 33px;
+    
+}
+
+#hal-card-rekomendasi .card{
+    height: 460px;
+    
+}
+
+#hal-card-rekomendasi .card-body h4{
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: .8rem;
+}
+
+#hal-card-rekomendasi .card-body p{
+    color: #141414;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#hal-card-rekomendasi .card:hover{
+    background: linear-gradient(170deg, var(--pr-color), #cd3d34, #cd3d34, black );
+    box-shadow: 0 10px 20px rgba(0,0,0,.25);
+    transition: all ease-in-out .2s;
+}
+
+#hal-card-rekomendasi .card:hover .card-body h4{
+    color: white;
+    transition: all ease-in-out .2s;
+}
+
+#hal-card-rekomendasi .card:hover .card-body p{
+    color: white;
+    transition: all ease-in-out .2s;
+}
+
+#hal-card-rekomendasi .card-body span{
+    color: red;
+}
+
+#hal-card-rekomendasi .card:hover .card-body span{
+    color: black;
+}
+
+.card-fasilitas {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    background-color: white;
+}
+
+.card-fasilitas span{
+    font-weight: 500;
+    color: black;
+    margin-top: 18px;    
+}
+
+.card-fasilitas p{
+    font-size: 12px;
+    color: black;    
+}
+
+.btn-rekomendasi {
+    border-radius:10px;
+    background: var(--pr-color);
+    color: white;
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 32px;
+}
+
+
+/* @media (min-width: 768px) {
+    .carousel-inner {
+      display: flex;
+    }
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+  } */
+ 
+
+
+
+/* Section Layanan Kami */
+
+#hal-layanan-kami {
+    width: 100%;
+    background: white;
+    height: 80vh;
+    margin-top: 100px;
+}
+
+#hal-layanan-kami h1{
+    color: var(--pr-color);
+    
+}
+
+#hal-layanan-kami h5{
+    color: black;
+    font-weight: 700;
+    font-size: large;    
+}
+
+.btn-iklan {
+    border-radius:10px;
+    background: var(--pr-color);
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+.card-untung:hover {
+    background: rgba(0,0,0,.06);
+}
+
+/* section contact */
+#hal-contact {
+background-image: url(../img/kontak-img.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#hal-contact .overlay{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#hal-contact .container{
+    padding: 148px 0 148px 0;
+}
+
+#hal-contact h2{
+    color: var(--pr-color);
+    font-weight: 600;
+}
+
+#hal-contact h3{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+}
+
+.tulisan-kecil-contact h6{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin: 19px 0 14px 0;
+}
+
+.tulisan-kecil-contact a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+
+}
+
+.card-contact{
+    width: 100%;
+    height: 445px;
+    background:white;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-contact h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--pr-color);
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+#hal-contact .form-control{
+    background: #C4C4C4;
+    height: 75px !important;
+    border-radius: 0;
+}
+
+#hal-contact .form-floating label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171;
+}
+
+.button-contact{
+    width: 100%;
+    height: 50px;
+    background: var(--pr-color);
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+
+}
+
+
+
+
+/* .section-padding {
+    padding: 100px 0;
+  } */
+
+
+/* section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    height: 80vh;
+    background-image:url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350");    
+}
+
+    section:nth-of-type(2n) {
+      background-color: #FE4B74;
+    } */
+
